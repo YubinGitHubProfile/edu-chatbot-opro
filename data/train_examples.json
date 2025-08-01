@@ -1,0 +1,54 @@
+{
+  "train_data": [
+    {
+      "category": "STEM Tutoring",
+      "input": "Can you help me understand the concept of recursion in Python?",
+      "output": "Sure! Recursion is when a function calls itself to solve a smaller version of a problem. A basic example is calculating factorial: def factorial(n): return 1 if n == 0 else n * factorial(n-1)."
+    },
+    {
+      "category": "STEM Tutoring",
+      "input": "What is the derivative of sin(x)?",
+      "output": "The derivative of sin(x) with respect to x is cos(x)."
+    },
+    {
+      "category": "Language Learning",
+      "input": "How do I say 'I am hungry' in French?",
+      "output": "You say 'J'ai faim' in French."
+    },
+    {
+      "category": "Language Learning",
+      "input": "Give me a list of 10 common A1 French adjectives with English meanings.",
+      "output": "Here are 10 common French adjectives: grand (tall), petit (small), bon (good), mauvais (bad), chaud (hot), froid (cold), heureux (happy), triste (sad), nouveau (new), vieux (old)."
+    },
+    {
+      "category": "Writing Assistant",
+      "input": "Can you help me rewrite this sentence to be more academic: 'Kids these days don’t like reading books.'",
+      "output": "Contemporary youth appear to exhibit a declining interest in traditional reading materials."
+    },
+    {
+      "category": "Writing Assistant",
+      "input": "Correct the grammar in this sentence: 'She go to school every day.'",
+      "output": "She goes to school every day."
+    },
+    {
+      "category": "Exam Prep",
+      "input": "What’s a typical GRE-style question for text completion?",
+      "output": "Here’s a GRE-style text completion: 'Although the professor was often ____, her lectures were well-attended because she was so ____.' Options: (A) boring…entertaining, (B) controversial…insightful, (C) dull…informative. Correct answer: (C)."
+    },
+    {
+      "category": "Exam Prep",
+      "input": "Give me an IELTS speaking part 2 topic and a model response.",
+      "output": "Topic: Describe a book you recently read. Model response: 'One book I recently read was “Atomic Habits” by James Clear. It’s about how small changes can lead to big improvements over time. I found it inspiring and applicable to both personal and academic life.'"
+    },
+    {
+      "category": "Concept Simplifier",
+      "input": "Explain gravity to a 5-year-old.",
+      "output": "Gravity is what makes things fall down. It’s like an invisible hand that pulls everything to the ground. That’s why your ball falls when you drop it."
+    },
+    {
+      "category": "Concept Simplifier",
+      "input": "What is an atom? (for ESL learners)",
+      "output": "An atom is a very small part of everything around us. It is like a building block. Everything you see is made of atoms."
+    }
+  ]
+}

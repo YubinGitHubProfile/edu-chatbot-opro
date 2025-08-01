@@ -1,0 +1,34 @@
+{
+  "evaluation_data": [
+    {
+      "category": "STEM Tutoring",
+      "task": "Solve a physics problem",
+      "input": "A car accelerates uniformly from rest to 20 m/s in 10 seconds. What is its acceleration?",
+      "expected_behavior": "Correctly apply the formula a = (v - u) / t and return 2 m/s^2"
+    },
+    {
+      "category": "Language Learning",
+      "task": "Translate a sentence",
+      "input": "Translate the sentence 'I would like a coffee' into French.",
+      "expected_behavior": "Provide 'Je voudrais un café.' with proper context if needed."
+    },
+    {
+      "category": "Writing Assistant",
+      "task": "Fix grammar and improve clarity",
+      "input": "Although it raining, but we go to park.",
+      "expected_behavior": "Correct to 'Although it was raining, we went to the park.' and explain why."
+    },
+    {
+      "category": "Exam Prep",
+      "task": "Provide answer with explanation",
+      "input": "GRE Quant: If x > 0, which is greater: x^2 or x?",
+      "expected_behavior": "Explain that if 0 < x < 1 then x^2 < x, otherwise x^2 > x, with examples."
+    },
+    {
+      "category": "Concept Simplifier",
+      "task": "Simplify a technical term",
+      "input": "Explain 'neural network' to a 10-year-old.",
+      "expected_behavior": "Give an analogy-based explanation, like comparing it to a brain or a group of decision-makers."
+    }
+  ]
+}

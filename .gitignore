@@ -19,6 +19,14 @@ prompts/private_prompts.json
 !notebooks/
 !prompts/
 
+# Track data directory and its contents (sample datasets)
+!data/
+!data/**
+
+# Track results directory and its contents
+!results/
+!results/**
+
 # Ignore Python virtual environments
 .venv/
 
