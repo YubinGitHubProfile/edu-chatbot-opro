@@ -16,7 +16,6 @@ prompts/private_prompts.json
 !models/
 !optimizer/
 !evals/
-!results/
 !notebooks/
 !prompts/
 
