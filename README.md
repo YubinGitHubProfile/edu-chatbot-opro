@@ -1,6 +1,6 @@
 # 📚 EduPrompt-OPro: Optimized Prompt Engineering for Educational Chatbots
 
-This project explores **prompt optimization** using [Open-ended Prompt Optimization (OPro)](https://arxiv.org/abs/2309.03409), applied to **educational chatbot tasks** such as tutoring, exam question answering, and personalized explanation. We leverage **Gemini**, **Claude**, and optionally **GPT models** to generate, evaluate, and refine prompts that maximize task-specific utility.
+This project explores **prompt optimization** using [Open-ended Prompt Optimization (OPro)](https://arxiv.org/abs/2309.03409), applied to **educational chatbot tasks** such as tutoring, exam question answering, and personalized explanation. **Gemini** (and optionally **Claude**, **GPT**) **models** were leveraged to generate, evaluate, and refine prompts that maximize task-specific utility.
 
 ## 🔍 What This Project Does
 
