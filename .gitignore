@@ -1,5 +1,5 @@
 # Ignore project structure file
-!structure.pgsql
+.structure.pgsql
 # Ignore private prompts
 prompts/private_prompts.json
 # Ignore production datasets
