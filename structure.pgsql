@@ -34,6 +34,10 @@ edu-chatbot-opro/
 ├── notebooks/
 │   └── analysis.ipynb        # Interactive EDA, visualizations of prompt quality
 │
+├── data/
+│   ├── train_examples.json      # Main dataset for optimization/training
+│   └── eval_examples.json       # (Optional) Separate eval set
+│
 └── app/
     ├── main.py               # Optional FastAPI or Streamlit app
     └── ui/                   # Web UI templates or frontend logic

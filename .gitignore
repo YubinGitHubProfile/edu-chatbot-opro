@@ -1,0 +1,27 @@
+# Ignore project structure file
+structure.pgsql
+# Ignore private prompts
+prompts/private_prompts.json
+# Ignore production datasets
+data/eval_examples.json
+data/train_examples.json
+# Ignore all files by default
+*
+# But do not ignore these!
+!.gitignore
+!README.md
+!requirements.txt
+!config.yaml
+!app/
+!models/
+!optimizer/
+!evals/
+!results/
+!notebooks/
+!prompts/
+
+# Ignore Python virtual environments
+.venv/
+
+# Ignore environment variable files
+.env

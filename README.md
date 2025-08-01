@@ -30,5 +30,31 @@ This project adapts that idea to practical prompt engineering for chatbots in do
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/edu-chatbot-opro.git
+
+git clone https://github.com/YubinGitHubProfile/edu-chatbot-opro.git
 cd edu-chatbot-opro
+```
+
+### 2. Example Usage
+
+To run prompt optimization from the command line using the CLI:
+
+```bash
+# For Gemini 2.5 Flash (default)
+python cli.py --prompt-type chatbot --model-version gemini-2.5-flash --num-iterations 5 --candidates-per-iter 4 --temperature 0.6 --api-key YOUR_GEMINI_API_KEY
+
+# For Gemini 2.0 Flash
+python cli.py --prompt-type chatbot --model-version gemini-2.0-flash --num-iterations 5 --candidates-per-iter 4 --temperature 0.6 --api-key YOUR_GEMINI_API_KEY
+```
+
+Replace `YOUR_GEMINI_API_KEY` with your actual Gemini API key, or set it in a `.env` file as `GEMINI_API_KEY`.
+
+You can also omit arguments to use the defaults from `config.py` and `base_prompts.json`:
+
+```bash
+python cli.py
+```
+
+This will optimize the selected prompt type using the OPro engine and print the best prompt found. Use the `--model-version` flag to switch between Gemini 2.0 Flash and 2.5 Flash.
+
+![OPro Optimization Progress](results/opro_plot.png)
